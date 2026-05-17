@@ -1,0 +1,19 @@
+name: ibmt-mahjong
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - git
+  - make
+  - pip
+  - pip:
+    - mjx==0.1.0
+    - pandas==2.3.3
+    - rich==14.1.0
+    - scikit-learn==1.6.1
+    - torch==2.8.0
+    - torchinfo==1.8.0
+    - tqdm==4.67.1
+    - wandb==0.18.0
+    - -e .

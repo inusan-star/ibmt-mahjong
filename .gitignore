@@ -1,0 +1,23 @@
+# Data
+/data/mjlogs/
+/data/json_logs/
+/data/processed/
+
+# Models
+/models/
+
+# Mypy
+.mypy_cache/
+
+# Python
+__pycache__/
+*.egg-info/
+
+# Results
+/results/
+
+# Tools
+/mjx-convert/
+
+# Weight & Biases
+wandb/

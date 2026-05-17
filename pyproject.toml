@@ -1,0 +1,6 @@
+[project]
+name = "ibmt-mahjong"
+version = "1.0.0"
+
+[tool.setuptools]
+packages = ["src"]
