@@ -18,7 +18,7 @@ conda activate ibmt-mahjong
 Download the `mjx-convert` repository from [this link](https://github.com/inusan-star/mjx-convert), then install the tool for log conversion. This version is a fork of the [mjx-convert](https://github.com/mjx-project/mjx-convert).
 
 ```bash
-git clone -b imitator --single-branch https://github.com/inusan-star/mjx-convert.git
+git clone -b mahjong --single-branch https://github.com/inusan-star/mjx-convert.git
 cd mjx-convert
 make install
 pip install .
